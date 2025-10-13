@@ -139,12 +139,10 @@ to extract actionable business insights.
 
 hotel_cancellation_ml_project/
 │
-├── data/                                      → Raw and processed booking datasets  
-├── Nabankur-ML1_Coded_Project.ipynb           → Main Jupyter Notebook (EDA + ML modeling)
-├── Nabankur-Business Report - ML1 Coded Project.pdf   → Full business & analytical report
-├── README.md                                  → Project documentation (this file)
-│
-└── results/                                   → Model outputs, visualizations, ROC curves
+├── INNHotelsGroup.csv                                  → Raw and processed booking dataset
+├── Hotel_Cancellation_Prediction_Model.ipynb           → Main Jupyter Notebook (EDA + ML modeling)
+├── Booking_Analytics_Machine_Learning_Report.pdf   → Full business & analytical report
+└──  README.md                                  → Project documentation (this file)
   </pre>
 </details>
 
