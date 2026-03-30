@@ -8,19 +8,18 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Key Results](#key-results)
-- [💼 Business Impact](#-business-impact)
-- [🛠️ Skills](#️-skills)
-- [💡 Key Learnings](#-key-learnings)
-- [🚀 Future Improvements](#-future-improvements)
-- [⚙️ How to Run](#️-how-to-run)
-- [📂 Repository Structure](#-repository-structure)
-- [✍️ Author](#️-author)
+- [Business Impact](#-business-impact)
+- [Skills](#️-skills)
+- [Key Learnings](#-key-learnings)
+- [Future Improvements](#-future-improvements)
+- [Repository Structure](#-repository-structure)
+- [Author](#️-author)
 
 ---
 
@@ -223,7 +222,7 @@ All models were evaluated on Accuracy, Recall, Precision, and F1 Score across bo
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 **1. Implement Lead-Time Based Cancellation Policies**
 Bookings with lead times exceeding 150 days should be subject to tiered, non-refundable deposits or dynamic cancellation fees. Since lead time is the single strongest predictor of cancellation, this policy directly targets the highest-risk bookings and protects revenue.
@@ -242,7 +241,7 @@ The model should be embedded into the hotel's booking management system to gener
 
 ---
 
-## 🛠️ Skills
+## Skills
 
 ### Technical Skills
 
@@ -266,7 +265,7 @@ The model should be embedded into the hotel's booking management system to gener
 
 ---
 
-## 💡 Key Learnings
+## Key Learnings
 
 - **Lead time is the most powerful cancellation signal.** The decision tree's first split at 151.5 days validates that customers who book far in advance are structurally more uncertain — a finding with direct policy implications.
 - **Multicollinearity can silently distort logistic regression results.** Computing VIF before trusting p-values is a non-negotiable step in regression-based workflows. Dropping `market_segment_type_Online` (VIF = 69.47) transformed the reliability of coefficient estimates.
@@ -277,7 +276,7 @@ The model should be embedded into the hotel's booking management system to gener
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 1. **Ensemble Methods:** Implement Random Forest, Gradient Boosting (XGBoost, LightGBM), and stacking ensembles to push recall and F1 beyond the Decision Tree baseline, while maintaining interpretability.
 2. **Class Imbalance Handling:** Apply SMOTE (Synthetic Minority Oversampling Technique) or class-weight adjustments to explicitly address the 67:33 class split and further reduce false negatives.
@@ -285,25 +284,9 @@ The model should be embedded into the hotel's booking management system to gener
 4. **Cross-Validation & Hyperparameter Optimization:** Replace single train-test splits with stratified k-fold cross-validation and GridSearchCV/Optuna-based hyperparameter tuning for more robust model selection.
 5. **Real-Time Deployment Pipeline:** Package the final model into a REST API (Flask/FastAPI) or integrate with the hotel's Property Management System (PMS) to generate live cancellation risk scores at the point of booking.
 
-## ⚙️ How to Run
-
-1.  **Clone the repository**:
-    ```bash
-    git clone <repo-url>
-    cd hotel-booking-cancellation-prediction-model
-    ```
-2.  **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Run the analysis**:
-    ```bash
-    jupyter notebook notebook/Hotel_Cancellation_Prediction_Model.ipynb
-    ```
-
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 hotel-booking-cancellation-prediction-model/
