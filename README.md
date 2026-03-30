@@ -62,7 +62,7 @@ A reliable cancellation prediction model enables the hotel to take pre-emptive a
 
 | Attribute | Detail |
 |---|---|
-| **Source** | INN Hotels Group, Portugal |
+| **Source** | INN Hotels Group, Provided as part of PGP-DSBA project |
 | **Size** | 36,275 rows × 19 columns |
 | **Missing Values** | None |
 | **Duplicate Values** | None |
