@@ -14,12 +14,12 @@
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Key Results](#key-results)
-- [Business Impact](#-business-impact)
-- [Skills](#️-skills)
-- [Key Learnings](#-key-learnings)
-- [Future Improvements](#-future-improvements)
-- [Repository Structure](#-repository-structure)
-- [Author](#️-author)
+- [Business Impact](#business-impact)
+- [Skills](#skills)
+- [Key Learnings](#key-learnings)
+- [Future Improvements](#future-improvements)
+- [Repository Structure](#repository-structure)
+- [Author](#author)
 
 ---
 
@@ -304,7 +304,7 @@ hotel-booking-cancellation-prediction-model/
 ```
 
 
-## ✍️ Author
+## Author
 | **Nabankur Ray** |
 | :--- |
 | Passionate about real-world data-driven solutions |
